@@ -1,0 +1,18 @@
+This project has been made during my dev training (MongoDB / Express / Node).
+
+I created the whole [./backend] folder.
+
+To run the app locally, please follow these instructions :
+
+- Create a MongoDB database and make sure you have admin access
+- Clone the repository
+
+- Copy/paste the [./backend/.env.example] file
+- Rename the newly created `.env copy.example` file to `.env`
+- Insert your MongoDB connection string into the `.env` file (don't forget to include your password)
+- From the [./backend] folder, run `npm install` then `node server`
+- Your console should now be indicating "Listening on port 3000 - Connected to MongoDB"
+
+- From the [root] folder, run `npm install` then `ng serve`
+- Navigate to `http://localhost:4200`
+- Make sure the password you choose to register is strong (minimum 8 characters, at least one uppercase letter, one lowercase letter, one number and one special character)
